@@ -1,0 +1,150 @@
+2018-03-20 12:49:17 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com/ershoufang/106101069527.html> (referer: https://cd.lianjia.com/ershoufang/pidou/pg48/)
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\python\lianjia_mongodb\lianjia_mongodb\spiders\ershoufang.py", line 78, in disposeData
+    item["trading_ownership"] = response.xpath("//div[@class='content']/ul/li[2]/span[2]/text()").extract()[0]
+IndexError: list index out of range
+2018-03-20 13:00:47 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com/ershoufang/106101071946.html> (referer: https://cd.lianjia.com/ershoufang/tianfuxinqu/pg48/)
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\python\lianjia_mongodb\lianjia_mongodb\spiders\ershoufang.py", line 95, in disposeData
+    item["trading_ownership"] = response.xpath("//div[@class='content']/ul/li[2]/span[2]/text()").extract()[0]
+IndexError: list index out of range
+2018-03-20 13:15:18 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com/ershoufang/106101050314.html> (referer: https://cd.lianjia.com/ershoufang/qingyang/pg85/)
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\python\lianjia_mongodb\lianjia_mongodb\spiders\ershoufang.py", line 95, in disposeData
+    item["trading_ownership"] = response.xpath("//div[@class='content']/ul/li[2]/span[2]/text()").extract()[0]
+IndexError: list index out of range
+2018-03-20 13:23:15 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com/ershoufang/106101031751.html> (referer: https://cd.lianjia.com/ershoufang/jinniu/pg44/)
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\python\lianjia_mongodb\lianjia_mongodb\spiders\ershoufang.py", line 95, in disposeData
+    item["trading_ownership"] = response.xpath("//div[@class='content']/ul/li[2]/span[2]/text()").extract()[0]
+IndexError: list index out of range
+2018-03-20 13:36:08 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com/ershoufang/106100674482.html> (referer: https://cd.lianjia.com/ershoufang/xindou/pg20/)
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\python\lianjia_mongodb\lianjia_mongodb\spiders\ershoufang.py", line 95, in disposeData
+    item["trading_ownership"] = response.xpath("//div[@class='content']/ul/li[2]/span[2]/text()").extract()[0]
+IndexError: list index out of range
+2018-03-20 13:45:53 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com/ershoufang/106100848213.html> (referer: https://cd.lianjia.com/ershoufang/jinjiang/pg5/)
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\python\lianjia_mongodb\lianjia_mongodb\spiders\ershoufang.py", line 108, in disposeData
+    item["housing_name"] = response.xpath("//div[@class='communityName']/a[1]/text()").extract()[0]
+IndexError: list index out of range
+2018-03-20 13:47:28 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com/ershoufang/106101051276.html> (referer: https://cd.lianjia.com/ershoufang/shuangliu/pg25/)
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\python\lianjia_mongodb\lianjia_mongodb\spiders\ershoufang.py", line 95, in disposeData
+    item["trading_ownership"] = response.xpath("//div[@class='content']/ul/li[2]/span[2]/text()").extract()[0]
+IndexError: list index out of range
+2018-03-20 13:47:44 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com/ershoufang/106100900297.html> (referer: https://cd.lianjia.com/ershoufang/shuangliu/pg28/)
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\python\lianjia_mongodb\lianjia_mongodb\spiders\ershoufang.py", line 95, in disposeData
+    item["trading_ownership"] = response.xpath("//div[@class='content']/ul/li[2]/span[2]/text()").extract()[0]
+IndexError: list index out of range
+2018-03-20 13:47:59 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com/ershoufang/106101069527.html> (referer: https://cd.lianjia.com/ershoufang/pidou/pg48/)
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\python\lianjia_mongodb\lianjia_mongodb\spiders\ershoufang.py", line 95, in disposeData
+    item["trading_ownership"] = response.xpath("//div[@class='content']/ul/li[2]/span[2]/text()").extract()[0]
+IndexError: list index out of range
+2018-03-20 13:49:09 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com/ershoufang/106100967938.html> (referer: https://cd.lianjia.com/ershoufang/pidou/pg38/)
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\python\lianjia_mongodb\lianjia_mongodb\spiders\ershoufang.py", line 95, in disposeData
+    item["trading_ownership"] = response.xpath("//div[@class='content']/ul/li[2]/span[2]/text()").extract()[0]
+IndexError: list index out of range
